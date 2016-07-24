@@ -1,11 +1,11 @@
 ZLSwipeableView
 ===============
-[![Build Status](https://travis-ci.org/zhxnlai/ZLSwipeableView.svg?branch=master)](https://travis-ci.org/zhxnlai/ZLSwipeableView)
+[![Build Status](https://travis-ci.org/kmiloaguilar/ZLSwipeableView.svg?branch=master)](https://travis-ci.org/kmiloaguilar/ZLSwipeableView)
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/zhxnlai/ZLSwipeableView?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A simple view for building card like interface like [Tinder](http://www.gotinder.com/) and [Potluck](https://www.potluck.it/). ZLSwipeableView was originally developed for [Murmur](http://zhxnlai.github.io/#/murmur).
 
-**Notice:** The Objective-C version of ZLSwipeableView is no longer actively maintained. 
+**Notice:** The Objective-C version of ZLSwipeableView is no longer actively maintained.
 ### Please checkout the swift version: https://github.com/zhxnlai/ZLSwipeableViewSwift
 
 Preview
