@@ -18,21 +18,21 @@
 		092F0F4E1A05B474007CDDCC /* ZLSwipeableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F0F4D1A05B474007CDDCC /* ZLSwipeableViewDemoTests.m */; };
 		092F0F661A05C9CA007CDDCC /* UIColor+FlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F0F651A05C9CA007CDDCC /* UIColor+FlatColors.m */; };
 		092F0F691A05DAF9007CDDCC /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F0F681A05DAF8007CDDCC /* CardView.m */; };
-		093ED7281BDEC5580028D0BC /* CustomAnimationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093ED7271BDEC5580028D0BC /* CustomAnimationDemoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		093ED72B1BDEC56E0028D0BC /* AllowedDirectionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093ED72A1BDEC56E0028D0BC /* AllowedDirectionDemoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		093ED72E1BDEC58D0028D0BC /* HistoryDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093ED72D1BDEC58D0028D0BC /* HistoryDemoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		093ED7311BDEC64F0028D0BC /* PreviousViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093ED7301BDEC64F0028D0BC /* PreviousViewDemoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		093ED7341BDEC65F0028D0BC /* AlwaysSwipeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093ED7331BDEC65F0028D0BC /* AlwaysSwipeDemoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		093ED7281BDEC5580028D0BC /* CustomAnimationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093ED7271BDEC5580028D0BC /* CustomAnimationDemoViewController.m */; };
+		093ED72B1BDEC56E0028D0BC /* AllowedDirectionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093ED72A1BDEC56E0028D0BC /* AllowedDirectionDemoViewController.m */; };
+		093ED72E1BDEC58D0028D0BC /* HistoryDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093ED72D1BDEC58D0028D0BC /* HistoryDemoViewController.m */; };
+		093ED7311BDEC64F0028D0BC /* PreviousViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093ED7301BDEC64F0028D0BC /* PreviousViewDemoViewController.m */; };
+		093ED7341BDEC65F0028D0BC /* AlwaysSwipeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093ED7331BDEC65F0028D0BC /* AlwaysSwipeDemoViewController.m */; };
 		0971D4611A08425E00325B8D /* ZLSwipeableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0971D45F1A08425E00325B8D /* ZLSwipeableView.m */; };
-		099CF6441BDD35B000D05FAA /* ViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 099CF6431BDD35B000D05FAA /* ViewManager.m */; settings = {ASSET_TAGS = (); }; };
-		09A35C1F1BDDDA4900F39193 /* Scheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C1E1BDDDA4900F39193 /* Scheduler.m */; settings = {ASSET_TAGS = (); }; };
-		09A35C251BDDDDF800F39193 /* ZLSwipeableViewMovement.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C241BDDDDF800F39193 /* ZLSwipeableViewMovement.m */; settings = {ASSET_TAGS = (); }; };
-		09A35C281BDDE6B300F39193 /* DefaultViewAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C271BDDE6B300F39193 /* DefaultViewAnimator.m */; settings = {ASSET_TAGS = (); }; };
-		09A35C2B1BDDE70D00F39193 /* DefaultDirectionInterpretor.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C2A1BDDE70D00F39193 /* DefaultDirectionInterpretor.m */; settings = {ASSET_TAGS = (); }; };
-		09A35C2E1BDDE71F00F39193 /* DefaultShouldSwipeDeterminator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C2D1BDDE71F00F39193 /* DefaultShouldSwipeDeterminator.m */; settings = {ASSET_TAGS = (); }; };
-		09A35C311BDDE74500F39193 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C301BDDE74500F39193 /* Utils.m */; settings = {ASSET_TAGS = (); }; };
-		09C2FF811BDE953F00339692 /* ZLSwipeableViewSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C2FF801BDE953F00339692 /* ZLSwipeableViewSwipeOptions.m */; settings = {ASSET_TAGS = (); }; };
-		09C2FF841BDEAEA400339692 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C2FF831BDEAEA400339692 /* MenuTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		099CF6441BDD35B000D05FAA /* ViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 099CF6431BDD35B000D05FAA /* ViewManager.m */; };
+		09A35C1F1BDDDA4900F39193 /* Scheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C1E1BDDDA4900F39193 /* Scheduler.m */; };
+		09A35C251BDDDDF800F39193 /* ZLSwipeableViewMovement.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C241BDDDDF800F39193 /* ZLSwipeableViewMovement.m */; };
+		09A35C281BDDE6B300F39193 /* DefaultViewAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C271BDDE6B300F39193 /* DefaultViewAnimator.m */; };
+		09A35C2B1BDDE70D00F39193 /* DefaultDirectionInterpretor.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C2A1BDDE70D00F39193 /* DefaultDirectionInterpretor.m */; };
+		09A35C2E1BDDE71F00F39193 /* DefaultShouldSwipeDeterminator.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C2D1BDDE71F00F39193 /* DefaultShouldSwipeDeterminator.m */; };
+		09A35C311BDDE74500F39193 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 09A35C301BDDE74500F39193 /* Utils.m */; };
+		09C2FF811BDE953F00339692 /* ZLSwipeableViewSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C2FF801BDE953F00339692 /* ZLSwipeableViewSwipeOptions.m */; };
+		09C2FF841BDEAEA400339692 /* MenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C2FF831BDEAEA400339692 /* MenuTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -281,7 +281,7 @@
 		092F0F261A05B474007CDDCC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Zhixuan Lai";
 				TargetAttributes = {
 					092F0F2D1A05B474007CDDCC = {
@@ -420,6 +420,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -483,6 +484,7 @@
 				INFOPLIST_FILE = ZLSwipeableViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -495,6 +497,7 @@
 				INFOPLIST_FILE = ZLSwipeableViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -514,6 +517,7 @@
 				);
 				INFOPLIST_FILE = ZLSwipeableViewDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSwipeableViewDemo.app/ZLSwipeableViewDemo";
 			};
@@ -529,6 +533,7 @@
 				);
 				INFOPLIST_FILE = ZLSwipeableViewDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.axcel.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZLSwipeableViewDemo.app/ZLSwipeableViewDemo";
 			};
