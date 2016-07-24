@@ -30,7 +30,7 @@ typedef NS_ENUM(NSUInteger, ZLSwipeableViewDirection) {
 @required
 - (void)animateView:(UIView *)view
               index:(NSUInteger)index
-              views:(NSArray<UIView *> *)views
+              views:(NSArray<__kindof UIView *> *)views
       swipeableView:(ZLSwipeableView *)swipeableView;
 
 @end

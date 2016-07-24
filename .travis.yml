@@ -2,3 +2,6 @@ language: objective-c
 
 script:
   xctool -project ZLSwipeableViewDemo/ZLSwipeableViewDemo.xcodeproj -scheme ZLSwipeableViewDemo -sdk iphonesimulator build test
+install:
+  - brew update
+  - brew upgrade xctool
