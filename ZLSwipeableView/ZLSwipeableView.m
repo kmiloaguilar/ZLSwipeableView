@@ -94,6 +94,23 @@
     return [self activeViews].firstObject;
 }
 
+- (UIView *)topSwipeableView
+{
+    return self.containerView.subviews.lastObject;
+}
+
+- (UIView *)secondFromTopSwipeableView
+{
+    if (self.containerView.subviews.count <= 1) {
+        return nil;
+    }
+    else
+    {
+        return self.containerView.subviews[self.containerView.subviews.count - 2];
+    }
+    
+}
+
 - (NSArray<UIView *> *)activeViews {
     NSPredicate *notSwipingViews =
         [NSPredicate predicateWithBlock:^BOOL(UIView *view, NSDictionary *bindings) {
@@ -182,6 +199,12 @@
         return;
     }
     [self swipeView:topView location:point directionVector:directionVector];
+}
+
+- (void)reloadData
+{
+    [self discardAllViews];
+    [self loadViewsIfNeeded];
 }
 
 #pragma mark - Private APIs

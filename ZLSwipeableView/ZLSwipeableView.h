@@ -23,6 +23,12 @@ typedef NS_ENUM(NSUInteger, ZLSwipeableViewDirection) {
                                   ZLSwipeableViewDirectionVertical,
 };
 
+typedef NS_ENUM(NSUInteger, ZLSwipeableViewSwipeRestriction) {
+    ZLSwipeableViewSwipeRestrictionNone = 0,
+    ZLSwipeableViewSwipeRestrictionHard = 1,  // swiping will do nothing
+    ZLSwipeableViewSwipeRestrictionSoft = 2  // swiping is allowed, but it will never swipe away.  the physics is used
+};
+
 @class ZLSwipeableView;
 
 @protocol ZLSwipeableViewAnimator <NSObject>
@@ -96,6 +102,8 @@ typedef NS_ENUM(NSUInteger, ZLSwipeableViewDirection) {
 @property (nonatomic, weak) IBOutlet id<ZLSwipeableViewDataSource> dataSource;
 
 @property (nonatomic) NSUInteger numberOfActiveViews;
+@property (nonatomic, readonly) UIView *topSwipeableView;
+@property (nonatomic, readonly) UIView *secondFromTopSwipeableView;
 
 // delegate
 @property (nonatomic, weak) IBOutlet id<ZLSwipeableViewDelegate> delegate;
@@ -111,6 +119,7 @@ typedef NS_ENUM(NSUInteger, ZLSwipeableViewDirection) {
 @property (nonatomic) CGFloat minTranslationInPercent;
 @property (nonatomic) CGFloat minVelocityInPointPerSecond;
 @property (nonatomic) ZLSwipeableViewDirection allowedDirection;
+@property (nonatomic, assign) ZLSwipeableViewSwipeRestriction restriction;
 
 - (UIView *)topView;
 
@@ -133,5 +142,7 @@ typedef NS_ENUM(NSUInteger, ZLSwipeableViewDirection) {
 - (void)swipeTopViewInDirection:(ZLSwipeableViewDirection)direction;
 
 - (void)swipeTopViewFromPoint:(CGPoint)point inDirection:(CGVector)directionVector;
+
+- (void)reloadData;
 
 @end
